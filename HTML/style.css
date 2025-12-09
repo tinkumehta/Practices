@@ -2,61 +2,81 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 body {
-    background: #eee;
-    padding: 20px;
+    background: #fff;
 }
 
-/* ---- Boxes ---- */
-header, nav, section, article, aside, footer {
-    border: 2px solid #444;
-    padding: 15px;
-    /* margin-bottom: 15px; */
-    font-size: 20px;
-    font-weight: bold;
+.container {
+    width: 70%;
+    margin: 30px auto;
+    border: 3px solid #000;
+    
 }
 
-/* Colors matching your screenshot */
-header { background: #f4a7a7; }
-nav { background: #9bd6f0; }
-footer { background: #f5be87; }
+/* ---- HEADER ---- */
+header {
+    background: #f8a7a7;
+    padding: 25px;
+    border: 3px solid #c06b6b;
+}
 
-.main-section {
+/* ---- NAV ---- */
+nav {
+   
+    background: #9cd4f2;
+    padding: 25px;
+    border: 3px solid #2c82b3;
+}
+
+/* ---- SECTION ---- */
+.main {
     display: flex;
-    gap: 15px;
-    background: #d8f3c9;
+    justify-content: space-between;
+    
+    background: #d1e7c6;
     padding: 15px;
-    border: 2px solid #333;
+    border: 3px solid #0a680a;
 }
 
-.content {
+/* LEFT SIDE (Heading + Article) */
+.left {
     flex: 2;
-    background: #ffe7c6;
-    padding: 10px;
-    border: 2px solid #777;
+    margin-right: 15px;
 }
 
-.content h2 {
-    background: #f5b1b1;
-    padding: 10px;
-    margin-bottom: 15px;
-    text-align: center;
-    font-size: 18px;
+.left h3 {
+    background: #f1baba;
+    padding: 15px;
+    border: 3px solid #a55959;
+    border-radius: 5px;
+}
+.left h2{
+    font-size: 20px;
 }
 
 article {
-    background: #d4b3f7;
-    padding: 40px;
-    text-align: center;
+    margin-top: 10px;
+    background: #d8c4ee;
+    padding: 60px;
+    border: 3px solid #6e4f8a;
 }
 
+/* ---- ASIDE ---- */
 aside {
-    flex: 1;
-    background: #d3d3d3;
-    border: 2px solid #555;
-    padding: 40px;
-    text-align: center;
+  
+    background: #d2d2d2;
+    padding: 65px;
+    border: 3px solid #505050;
+}
+
+/* ---- FOOTER ---- */
+footer {
+   
+    background: #f1b980;
+    padding: 30px;
+    border: 3px solid #b67336;
 }

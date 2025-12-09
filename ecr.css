@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head{
+    background-color:  #E3E6F3;
+     display: flex;
+     justify-content: space-between;
+    width: 100%;
+   height: 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    position: fixed;
+}
+.logo {
+    margin: 20px;
+} 
+.head1{
+    display: flex;
+    justify-content: end;
+}
+.head1 a {
+    margin: 25px;
+    font-size: 15px;
+    list-style: none;
+}
+.hero{
+    width: 100%;
+    height: 90vh;
+    background-image: url(img/hero4.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero1{
+    margin-left: 80px;
+}
+.hero1 h1{
+    font-size: 45px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.hero1 h1 span{
+    color: #088178;
+    
+}
+.hero1 p {
+    margin-bottom: 10px;
+}
+.hero1 .btn{
+    border: 0;
+    background-image: url(img/button.png);
+    background-color: transparent;
+    background-size: cover;
+    padding: 14px 80px 14px 65px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #088178;
+    cursor: pointer;
+}
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 30px;
+    margin-top: 30px;
+}
+.fa-box{
+    width: 180px;
+    padding: 25px 15px;
+    border: 1px solid #cce7d0;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.fa-box h6{
+    background-color:#FDDDE4 ;
+    padding: 10px;
+    
+}
+.heading1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.head5 h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.head5 p{
+    font-family: 'Times New Roman', Times, serif;
+}  
+.product01{
+    text-align: center;
+    margin-top: 30px;
+}
+.product01 h1{
+    font-size: 46px;
+    line-height: 64px;
+    color: #100d0d;
+    margin-bottom: 10px;
+}
+.pro-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    position: relative;
+    margin: 10px 0;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+.des span{
+    display: flex;
+    text-align: start;
+    margin: 5px;
+}
+.des h4{
+    text-align: start;
+    margin-left: 4px;
+}
+.star {
+    margin: 2px;
+   display: flex;
+    text-align: start;
+    flex-direction: row;
+    color: #F3B519;
+}
+.star i{
+    font-size: 12px;
+    margin: 1px;
+}
+.des h3{
+    text-align: start;
+    font-size: 22px;
+    margin: 1px;
+}
+ .cart {
+   font-size: 29px;
+    color: #088178;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/banner/b2.jpg);
+    background-size: cover;
+    color: #fff;  
+    width: 100%;
+    height: 40vh;
+   
+}
+.banner h3{
+    margin: 20px;
+}
+.banner h2 {
+    font-size: 29px;
+}
+.banner h2 span{
+    color: red;
+}
+.banner button{
+    margin: 10px;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.banner button:hover{
+    background-color: #088178;
+    color: #fff;
+}
+.banner1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bannerCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 580px;
+    height: 40vh;
+    background-image: url(img/banner/b17.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+} 
+ .cart1{
+    margin-top: 5px;
+    background-image: url(img/banner/b10.jpg);
+}
+.bannerCard p{
+    margin: 10px;
+    font-weight: 700;
+}
+.bannerCard h3{
+    font-size: 30px;
+}
+.bannerCard button{
+    padding: 12px;
+    margin-left: 20px;
+    border-radius: 7px;
+}
+.banner03{
+    margin-top: 20px;
+    height: 30vh;
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+}

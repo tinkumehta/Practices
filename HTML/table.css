@@ -1,0 +1,34 @@
+.styled-table {
+    width: 60%;
+    margin: 50px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Header background (blue) */
+.styled-table thead tr {
+    background-color: #008cce;   /* same as screenshot */
+    color: #ffffff;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #b3b3b3;
+}
+
+/* Grey striped rows like your image */
+.styled-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.styled-table tbody tr:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+
+/* Hover effect (optional but clean) */
+.styled-table tbody tr:hover {
+    background-color: #d0d0d0;
+}
